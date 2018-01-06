@@ -1,0 +1,22 @@
+{
+	"name" : "theiconnz/herms-theme",
+	"description" : "Herms theme manager",
+	"license" : "BSD-3-Clause",
+	"type" : "theiconnz-herms",
+	"homepage" : "https://theicon.co.nz/",
+	"version" : "0.0.1",
+	"minimum-stability" : "stable",
+	"require" : {
+		"theiconnz/herms-core" : ">=0.0.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"HermsTheme\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"HermsTheme\\" : "test/"
+		}
+	}
+}
